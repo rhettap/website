@@ -21,8 +21,8 @@ def change_photo_state():
 
 camera_photo = st.camera_input("Say Cheese", on_change=change_photo_state)
 
-image_path1 = 'my_image1.jpg'
-image_path2 = 'my_image2.jpg'
+image_path1 = 'website/my_image1.jpg'
+image_path2 = 'website/my_image2.jpg'
 my_image1 = Image.open(image_path1)
 my_image2 = Image.open(image_path2)
 
