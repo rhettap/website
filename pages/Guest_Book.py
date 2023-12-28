@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
-import geopy.geocoders 
+import geopy
+from geopy.geocoders import Nominatim
 import folium
 from streamlit_folium import folium_static
 
